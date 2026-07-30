@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Girls Date 💗</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="hearts"></div>
+
+<div class="page active" id="page1">
+    <h2>Anonymous Message 💌</h2>
+
+    <div class="envelope" onclick="nextPage(2)">
+        💌
+    </div>
+
+    <p>Tap the envelope</p>
+</div>
+
+
+<div class="page" id="page2">
+    <h1>Would you go on a girls' date with me? 💕</h1>
+
+    <button onclick="nextPage(3)">YES 💗</button>
+    <button onclick="nextPage(3)">Of course 🥰</button>
+</div>
+
+
+<div class="page" id="page3">
+    <h1>Choose a Date 📅</h1>
+
+    <button onclick="selectDate(this)">July 31</button>
+    <button onclick="selectDate(this)">August 1</button>
+    <button onclick="selectDate(this)">August 2</button>
+    <button onclick="selectDate(this)">August 3</button>
+
+    <br><br>
+
+    <button onclick="nextPage(4)">Continue</button>
+</div>
+
+
+<div class="page" id="page4">
+    <h1>Choose a Time ⏰</h1>
+
+    <button onclick="selectDate(this)">4:30 PM</button>
+    <button onclick="selectDate(this)">5:30 PM</button>
+    <button onclick="selectDate(this)">6:30 PM</button>
+    <button onclick="selectDate(this)">7:30 PM</button>
+
+    <br><br>
+
+    <button onclick="nextPage(5)">Continue</button>
+</div>
+
+
+<div class="page" id="page5">
+    <h1>It's a Date! 💕</h1>
+
+    <h2>Duniyav</h2>
+
+    <p>Can't wait to see you ❤️</p>
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+  </html>
